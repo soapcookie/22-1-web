@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <h1>D-DAY<br>Calculator</h1>
+    <h2>TODAY IS
+        <script>
+            if (month == 1) {
+                document.write("JAN ");
+            } else if (month == 2) {
+                document.write("FEB ");
+            } else if (month == 3) {
+                document.write("MARCH ");
+            } else if (month == 4) {
+                document.write("APRIL ");
+            } else if (month == 5) {
+                document.write("MAY ");
+            } else if (month == 6) {
+                document.write("JUNE ");
+            } else if (month == 7) {
+                document.write("JULY ");
+            } else if (month == 8) {
+                document.write("AUG ");
+            } else if (month == 9) {
+                document.write("SEP ");
+            } else if (month == 10) {
+                document.write("OCT ");
+            } else if (month == 11) {
+                document.write("NOV ");
+            } else if (month == 12) {
+                document.write("DEC ");
+            }
+            document.write(date + " ")
+            document.write("," + year)
+        </script>
+    </h2>
+
+    <div class=" js-dday ">
+        <h3 id="h3"></h3>
+        <script>
+            document.querySelector("#h3").innerHTML = "<h3>D" + pm + passedDay + "</h3>";
+        </script>
+    </div>
+
+</body>
+
+
+</html>

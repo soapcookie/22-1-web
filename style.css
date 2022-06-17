@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(199, 185, 255);
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'roboto';
+    color: white;
+}
+
+.js-dday {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
